@@ -1,0 +1,191 @@
+{
+  "french": {
+    "switchLanguage": "english",
+    "firstLine": "Bonjour, je m'appelle",
+    "subTitle": "Je suis développeur fullstack Web & Mobile.",
+    "descriptionText": [
+      "Je suis spécialisé en : ",
+      "Je suis une personne passionnée et curieuse, toujours à la recherche de nouvelles expériences.",
+      "J'habite à Annecy, dans la belle région des Alpes de Haute-Savoie."
+    ],
+    "resume": "Mon CV",
+    "about": {
+      "title": "À propos de moi",
+      "texts": [
+        [
+          "Salut ! Je m'appelle Yann. j'ai commencé mes études en tant que menuiserier. Au fil des années, j'ai développé une allergie aux poussières de bois, un obstacle intolérable qui m'a aventurer dans un domaine différent. J'ai décidé de rejoindre l'armée et de travailler avec les troupes de montagne, et après avoir accompli toutes mes missions militaires pendant six ans, je suis retourné à la vie civile, d'abord comme agent de sûreté aéroportuaire pendant trois ans."
+        ],
+        [
+          "La pandémie m'a ensuite fait réaligner mes objectifs avec une nouvelle réalité, ravivant ma passion pour l'informatique, voyant sa pertinence avec les temps en constante évolution."
+        ],
+        [
+          "Je me suis inscrit à une formation intensive de 10 semaines en ",
+          "développement Web et Mobile : Le Reacteur",
+          ", et maintenant je continue à développer mes compétences techniques en m'engageant dans des projets, en découvrant de nouvelles méthodes CSS comme ",
+          "tailwindcss",
+          "."
+        ],
+        [
+          "À l'avenir, j'aimerai en savoir plus sur ",
+          "TypeScript",
+          " et ",
+          "Vue.js",
+          "."
+        ]
+      ]
+    },
+    "projects": {
+      "title": "Mes projets",
+      "list": [
+        {
+          "type": "FullStack Web Project",
+          "title": "Vinted",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940303/portfolio/vinted.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940303/portfolio/vinted.png",
+          "description": "Ce projet est un clone du site Vinted. C'est un marché en ligne communautaire qui permet de vendre, d'acheter, et d'échanger des vêtements et accessoires neuf ou d'occasion.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/acctYann/Vinted-frontend",
+          "netlifyURL": "https://vinted-yann.netlify.app/",
+          "qrCode": null
+        },
+        {
+          "type": "Projet Mobile Front-end",
+          "title": "Airbnb",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940301/portfolio/airbnb.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940301/portfolio/airbnb.png",
+          "description": "C'est un clone de l'application mobile Airbnb. C'est un service de plateforme communautaire payant de location de logements.",
+          "technologies": ["Expo"],
+          "githubURL": "https://github.com/acctYann/Airbnb-frontend",
+          "netlifyURL": null,
+          "qrCode": "https://exp.host/@yannponcet/airbnb"
+        },
+        {
+          "type": "FullStack Web Project",
+          "title": "Gamepad",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940300/portfolio/gamepad_icb9x9.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940300/portfolio/gamepad_icb9x9.png",
+          "description": "Gamepad s'agit d'une réplique simplifiée du site RAWG. C'est la plus grande base de données de jeux vidéo et service de découverte de jeux.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "tailwindcss",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/acctYann/Gamepad-frontend",
+          "netlifyURL": "https://gamepad-yann.netlify.app/",
+          "qrCode": null
+        }
+      ]
+    },
+    "getInTouch": {
+      "title": "Restons en contact",
+      "texts": [
+        "Je suis actuellement à la recherche d'un stage et serais très reconnaissant d'être invité pour des projets et d'autres opportunités."
+      ],
+      "mail": "Envoyez-moi un email"
+    }
+  },
+
+  "english": {
+    "switchLanguage": "french",
+    "firstLine": "Hi, my name is",
+    "subTitle": "I am a fullstack Web & Mobile Developer.",
+    "descriptionText": [
+      "I specialise in: ",
+      "I am a passionate and curious person, always looking for new experiences.",
+      "I live in Annecy, in the beautiful alpine region of Haute-Savoie."
+    ],
+    "resume": "Curriculum vitae",
+    "about": {
+      "title": "About me",
+      "texts": [
+        [
+          "Hi! My name is Yann. I was initially trained as a carpenter. Through the years though, I have developed an allergy to wood dusts, an intolerable hurdle that made me venture a different field. I decided to join the military and worked with mountain troops, and after completing all my military missions for six years, I returned to civilian life, first as an airport security agent for three years."
+        ],
+        [
+          "The pandemic then made me realign my goals with unprecedented realities, rekindling my passion for computer and informatics, seeing its relevance with the ever changing times."
+        ],
+        [
+          "I signed up for a 10-week intensive training ",
+          "Web and Mobile development from Le Reacteur",
+          ", and here I am now pursuing to develop my technical skills through engaging in projects, discovering new CSS methods such as  ",
+          "tailwindcss",
+          "."
+        ],
+        [
+          "In the future I hope to learn more about ",
+          "TypeScript",
+          " and ",
+          "Vue.js",
+          "."
+        ]
+      ]
+    },
+    "projects": {
+      "title": "My projects",
+      "list": [
+        {
+          "type": "FullStack Web Project",
+          "title": "Vinted",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940303/portfolio/vinted.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940303/portfolio/vinted.png",
+          "description": "Cloned from Vinted website, it is an online marketplace for buying, selling and exchanging new or secondhand items, mainly clothing and accessories.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/acctYann/Vinted-frontend",
+          "netlifyURL": "https://vinted-yann.netlify.app/",
+          "qrCode": null
+        },
+        {
+          "type": "Front-end Mobile Project",
+          "title": "Airbnb",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940301/portfolio/airbnb.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940301/portfolio/airbnb.png",
+          "description": "Cloned from Airbnb mobile app, it is an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities.",
+          "technologies": ["Expo"],
+          "githubURL": "https://github.com/acctYann/Airbnb-frontend",
+          "netlifyURL": null,
+          "qrCode": "https://exp.host/@yannponcet/airbnb"
+        },
+        {
+          "type": "FullStack Web Project",
+          "title": "Gamepad",
+          "imageColorURL": "https://res.cloudinary.com/dssoozni5/image/upload/b_rgb:64ffda,o_70/v1635940300/portfolio/gamepad_icb9x9.png",
+          "imageURL": "https://res.cloudinary.com/dssoozni5/image/upload/v1635940300/portfolio/gamepad_icb9x9.png",
+          "description": "Cloned from RAWG website, it is the largest video game database and game discovery service.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "tailwindcss",
+            "Express.js",
+            "Heroku",
+            "Netlify"
+          ],
+          "githubURL": "https://github.com/acctYann/Gamepad-frontend",
+          "netlifyURL": "https://gamepad-yann.netlify.app/",
+          "qrCode": null
+        }
+      ]
+    },
+    "getInTouch": {
+      "title": "Get in touch",
+      "texts": [
+        "I am currently looking for an internship and would be very grateful to be invited for related projects and other opportunities."
+      ],
+      "mail": "Insert email here"
+    }
+  }
+}

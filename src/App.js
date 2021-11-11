@@ -1,25 +1,52 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import { useState } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+// Contexts
+import LanguageContext from "./contexts/language-context";
+
+// Containers
+import Home from "./containers/Home";
+import Projects from "./containers/Projects";
+import Loader from "./containers/Loader";
+import About from "./containers/About";
+import StayInTouch from "./containers/StayInTouch";
+
+// Components
+import SocialNetworksLinks from "./components/SocialNetworksLinks";
+import LanguageButton from "./components/LanguageButton";
+import MailAddress from "./components/MailAddress";
+import Logo from "./components/Logo";
+import Footer from "./components/Footer";
+
+// Data
+import textsJSON from "./utils/data/texts.json";
+
+const App = () => {
+  const [language, setLanguage] = useState(textsJSON.french);
+  const [displayAnimation, setDisplayAnimation] = useState(true);
+
+  return displayAnimation ? (
+    <Loader setDisplayAnimation={setDisplayAnimation} />
+  ) : (
+    <main>
+      <Logo />
+      <SocialNetworksLinks />
+      <LanguageContext.Provider value={language}>
+        <LanguageButton setLanguage={setLanguage} />
+
+        <Home />
+
+        <About />
+
+        <Projects />
+
+        <StayInTouch />
+
+        <Footer />
+      </LanguageContext.Provider>
+      <MailAddress />
+    </main>
   );
-}
+};
 
 export default App;

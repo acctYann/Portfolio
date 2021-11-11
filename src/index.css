@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+
+* {
+  @apply bg-trueGray-900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+  @apply w-1.5;
 }
+::-webkit-scrollbar-track {
+  @apply bg-trueGray-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-trueGray-600 rounded-full;
+}
+
+@tailwind components;
+
+.disappear {
+  animation-name: disappear;
+  animation-duration: 1000ms;
+  animation-delay: 2000ms;
+  animation-timing-function: linear;
+}
+
+/* Animation to make the command line interface disappear */
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+.afterHorizontalLine::after {
+  content: "";
+  @apply absolute bottom-5 md:bottom-0 block bg-trueGray-400 w-10 md:w-6 lg:w-14 xl:w-20 h-px;
+}
+
+.afterVerticalLine::after {
+  content: "";
+  @apply block bg-trueGray-400 w-px h-24;
+}
+
+.afterHorizontalLineTitle::after {
+  content: "";
+  @apply block bg-trueGray-700 w-0 sm:w-1/2 h-px ml-4;
+}
+
+.hoverBg:hover {
+  background-color: rgba(100, 255, 519, 0.12);
+}
+@tailwind utilities;
