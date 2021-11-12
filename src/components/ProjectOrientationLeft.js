@@ -27,13 +27,9 @@ const ProjectOrientationLeft = ({ item }) => {
               <p className="md:bg-trueGray-800">{item.description}</p>
             </div>
 
-            <div className="flex font-mono text-xs mb-2">
+            <div className="flex font-mono text-xs mb-4">
               {item.technologies.map((techno, index) => {
-                return (
-                  <p className="pr-3" key={index}>
-                    {techno}
-                  </p>
-                );
+                return <p key={index}>{techno}</p>;
               })}
             </div>
 

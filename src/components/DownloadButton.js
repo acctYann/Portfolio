@@ -4,8 +4,8 @@ import React, { useContext } from "react";
 import LanguageContext from "../contexts/language-context";
 
 // CV
-// import CVfr from "../utils/data/";
-// import CVeng from "../utils/data/";
+import CVfr from "../utils/data/CV-Yann-Poncet-fr.pdf";
+import CVeng from "../utils/data/CV-Yann-Poncet-eng.pdf";
 
 const DownloadButton = () => {
   const language = useContext(LanguageContext);
@@ -13,7 +13,7 @@ const DownloadButton = () => {
   return (
     <a
       className="border-secondary text-secondary border w-max cursor-pointer mt-10 py-3 px-14 rounded transition ease-in-out duration-500 hoverBg"
-      href="dd" //{language.switchLanguage === "english" ? CVfr : CVeng}
+      href={language.switchLanguage === "english" ? CVfr : CVeng}
       download
     >
       {language.resume}
