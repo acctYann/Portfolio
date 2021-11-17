@@ -88,7 +88,7 @@
     "getInTouch": {
       "title": "Restons en contact",
       "texts": [
-        "Je suis actuellement à la recherche d'un stage et serai très reconnaissant d'être invité pour des projets et d'autres opportunités."
+        "Je suis actuellement à la recherche d'un stage ou d'un emploi et je serai très reconnaissant d'être invité pour des projets et d'autres opportunités."
       ],
       "mail": "Envoyez-moi un email"
     }
@@ -183,7 +183,7 @@
     "getInTouch": {
       "title": "Get in touch",
       "texts": [
-        "I am currently looking for an internship and would be very grateful to be invited for related projects and other opportunities."
+        "I am currently looking for an internship or a job and I would be very grateful to be invited for related projects and other opportunities."
       ],
       "mail": "Insert email here"
     }
