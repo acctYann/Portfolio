@@ -8,7 +8,7 @@ const SocialNetworksLinks = () => {
   const [isGithubHover, setIsGithubHover] = useState(false);
 
   return (
-    <ul className="hidden md:flex flex-col items-center fixed bottom-0 left-6 md:left-8 lg:left-10 afterVerticalLine">
+    <ul className="hidden z-10 md:flex flex-col items-center fixed bottom-0 left-6 md:left-8 lg:left-10 afterVerticalLine">
       <li className="cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1">
         <ExternalLink
           setFunction={setIsLinkedinHover}

@@ -15,7 +15,7 @@ const ProjectOrientationRight = ({ item }) => {
     <Slide bottom effect="fadeInUp" duration={1000}>
       <section className="relative mb-60 s:mb-96 md:mb-120 md:grid md:grid-col">
         {/* Texts */}
-        <div className="">
+        <div>
           <div className="md:absolute flex flex-col md:items-start">
             <p className="text-secondary font-mono mb-2 z-10 bg-transparent">
               {item.type}
@@ -82,12 +82,12 @@ const ProjectOrientationRight = ({ item }) => {
             rel="noreferrer"
           >
             <img
-              className="absolute right-0 hover:z-10 s:object-fill hover:cursor-pointer w-full md:w-7/12 s:h-80 rounded"
+              className="absolute right-0 hover:z-10 s:object-fill hover:cursor-pointer w-full md:w-7/12 s:h-80 2xl:h-100 rounded"
               src={item.imageURL}
               alt="project screenshot"
             />
             <img
-              className="absolute right-0 hover:hidden s:object-fill w-full md:w-7/12 s:h-80 rounded mix-blend-color"
+              className="absolute right-0 hover:hidden s:object-fill w-full md:w-7/12 s:h-80 2xl:h-100 rounded mix-blend-color"
               src={item.imageColorURL}
               alt="project screenshot"
             />

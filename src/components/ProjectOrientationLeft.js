@@ -13,10 +13,10 @@ const ProjectOrientationLeft = ({ item }) => {
 
   return (
     <Slide bottom effect="fadeInUp" duration={1000}>
-      <section className="relative mb-72 s:mb-96 md:mb-106 lg:mb-110 xl:mb-120">
+      <section className="relative mb-72 s:mb-96 md:mb-106 lg:mb-110 xl:mb-120 md:grid md:grid-col">
         {/* Texts */}
-        <div className="md:grid grid-cols-2">
-          <div className="md:absolute flex flex-col md:items-end">
+        <div>
+          <div className="md:absolute flex flex-col md:items-end md:w-full">
             <p className="text-secondary font-mono mb-2 z-10 bg-transparent">
               {item.type}
             </p>
@@ -27,7 +27,7 @@ const ProjectOrientationLeft = ({ item }) => {
               <p className="md:bg-trueGray-800">{item.description}</p>
             </div>
 
-            <div className="flex font-mono text-xs mb-4">
+            <div className="flex flex-wrap font-mono text-xs mb-4">
               {item.technologies.map((techno, index) => {
                 return <p key={index}>{techno}</p>;
               })}
@@ -78,12 +78,12 @@ const ProjectOrientationLeft = ({ item }) => {
             rel="noreferrer"
           >
             <img
-              className="absolute hover:z-10 s:object-fill hover:cursor-pointer w-full md:w-7/12 s:h-80 rounded"
+              className="absolute hover:z-10 s:object-fill hover:cursor-pointer w-full md:w-7/12 s:h-80 2xl:h-100 rounded"
               src={item.imageURL}
               alt="project screenshot"
             />
             <img
-              className="absolute  hover:hidden s:object-fill w-full md:w-7/12 s:h-80 rounded mix-blend-color"
+              className="absolute  hover:hidden s:object-fill w-full md:w-7/12 s:h-80 2xl:h-100 rounded mix-blend-color"
               src={item.imageColorURL}
               alt="project screenshot"
             />
